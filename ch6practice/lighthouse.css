@@ -84,4 +84,8 @@ nav a:hover {
   color: #869DC7;
   background-color: #EAEAEA;
 }
+header a { text-decoration: none; }
+header a:link { color: #00005D; }
+header a:visited { color: #00005D; }
+header a:hover { color: #FFFFFF; }
 

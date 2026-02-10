@@ -1,13 +1,10 @@
-/* 1) Universal selector */
 * { box-sizing: border-box; }
 
-/* 2) Body */
 body {
   background-color: #00005D;
   font-family: Verdana, Arial, sans-serif;
 }
 
-/* 3) Wrapper */
 #wrapper {
   margin: 0 auto;
   width: 80%;
@@ -17,7 +14,6 @@ body {
   color: #000066;
 }
 
-/* 4) Header */
 header {
   background-color: #869DC7;
   color: #00005D;
@@ -27,7 +23,6 @@ header {
   background-image: url(lightlogo.jpg);
 }
 
-/* 5) Nav */
 nav {
   float: right;
   width: 200px;
@@ -35,7 +30,6 @@ nav {
   letter-spacing: 0.1em;
 }
 
-/* 6) Main */
 main {
   background-color: #FFFFFF;
   color: #000000;
@@ -44,7 +38,6 @@ main {
   display: block;
 }
 
-/* 7) Footer */
 footer {
   font-size: 70%;
   text-align: center;
@@ -53,7 +46,6 @@ footer {
   clear: both;
 }
 
-/* Step 3 additions */
 h2 {
   color: #869DC7;
   font-family: Arial, sans-serif;
@@ -63,6 +55,7 @@ h2 {
   float: right;
   margin: 10px;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -84,8 +77,8 @@ nav a:hover {
   color: #869DC7;
   background-color: #EAEAEA;
 }
+
 header a { text-decoration: none; }
 header a:link { color: #00005D; }
 header a:visited { color: #00005D; }
 header a:hover { color: #FFFFFF; }
-
